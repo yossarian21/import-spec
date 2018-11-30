@@ -1,0 +1,28 @@
+{
+  "name": "import-spec",
+  "version": "1.0.0",
+  "description": "Testing babel's implementation of the ES6 modules spec",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "test": "mocha ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yossarian21/import-spec.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yossarian21/import-spec/issues"
+  },
+  "homepage": "https://github.com/yossarian21/import-spec#readme",
+  "dependencies": {
+    "@babel/cli": "7.1.5",
+    "@babel/core": "7.1.6",
+    "@babel/preset-env": "7.1.6",
+    "@babel/register": "7.0.0",
+    "chai": "4.2.0",
+    "mocha": "5.2.0"
+  }
+}
