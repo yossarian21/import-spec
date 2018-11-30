@@ -7,6 +7,12 @@ import defaultMyFun from './my-fun';
 // Tests scenarios described in http://exploringjs.com/es6/ch_modules.html#sec_imports-as-views-on-exports
 // 16.7.2 In ES6, imports are live read-only views on exported values
 
+// Babel spec mode...
+// http://2ality.com/2017/01/babel-esm-spec-mode.html
+
+// Babel plugin-transform-es2015-modules-commonjs
+// https://babeljs.io/docs/en/babel-plugin-transform-es2015-modules-commonjs
+
 describe('es6 import/export implementation in babel', function () {
     it('cannot set a member of a module object - import * as foo (named export)', function () {
         // The properties of a module object foo (import * as foo from 'foo') are like the properties of a frozen object.
